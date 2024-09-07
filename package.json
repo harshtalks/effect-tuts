@@ -1,0 +1,17 @@
+{
+  "name": "effect-business-api",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.63.3",
+    "@effect/platform-bun": "^0.43.3",
+    "@effect/platform-node": "^0.58.3",
+    "effect": "^3.7.2"
+  }
+}
